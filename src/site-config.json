@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Horizon Smart Home",
+    "phone": "555-sma-r90",
+    "category": "smart-home",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "design": {
+    "preset": {
+      "id": "smart-home-trust-navy",
+      "categoryGroup": "smart-home",
+      "name": "Trust Navy",
+      "recipeFile": "smart-home/trust-navy.astro",
+      "colors": {
+        "primary": "#2563EB",
+        "primaryDark": "#1E3A8A",
+        "primaryLight": "#c9d8fa",
+        "secondary": "#1f54c8",
+        "accent": "#8B5CF6",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#2563EB",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "smart-home/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Smart Home Solutions for Seattle Living",
+      "heroSubline": "Transform your Pacific Northwest home with intelligent technology tailored to our unique climate. From moisture-resistant automation to earthquake-ready security, we make homes work smarter.",
+      "aboutTitle": "Built for Seattle's Homes",
+      "aboutText": [
+        "Founded in 2012, Horizon Smart Home began when our founder noticed how Seattle's damp climate wreaked havoc on traditional home systems. We pioneered moisture-resistant smart home installations that actually last through our rainy winters.",
+        "Our approach combines premium technology with deep local knowledge. We don't just install devices - we engineer systems that account for everything from Craftsman home layouts to moss growth patterns on rooftops.",
+        "As a proud member of the Seattle Smart Home Alliance, we're committed to making cutting-edge technology accessible across all our neighborhoods, from Capitol Hill's historic homes to Bellevue's modern estates."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adaptive Tech",
+          "description": "Our systems are specifically designed to handle Seattle's persistent moisture, with waterproof sensors and mildew-resistant materials."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "We understand the unique challenges of Seattle homes, from 1920s wiring to modern smart home integrations."
+        },
+        {
+          "title": "Earthquake Ready",
+          "description": "All installations include seismic safeguards to protect your investment during tremors."
+        },
+        {
+          "title": "Neighborhood Specialists",
+          "description": "Whether you're in a Ballard bungalow or a Bellevue mansion, we know your home's specific needs."
+        }
+      ],
+      "ctaHeadline": "Ready for a Smarter Seattle Home?",
+      "ctaSubline": "Schedule your free smart home consultation today. Our local experts will assess your space and recommend the perfect climate-adaptive solutions."
+    },
+    "services": [
+      {
+        "slug": "whole-home-automation",
+        "name": "Whole Home Automation",
+        "shortDescription": "Complete control of your Seattle home's lighting, climate, and security from one intuitive system.",
+        "description": "Our whole-home automation transforms your Seattle property into a responsive, intelligent space that adapts to both your lifestyle and our unique climate. For Craftsman homes, we carefully integrate modern technology while preserving historic charm, hiding wiring in original moldings and using period-appropriate control panels.\n\nIn newer constructions, we implement cutting-edge systems that anticipate needs - automatically adjusting humidity levels during our damp winters or activating earthquake protocols during tremors. Every installation includes our proprietary moisture-resistant sensors that withstand Seattle's persistent rain without false triggers.\n\nFrom Queen Anne to West Seattle, we've automated hundreds of homes with systems that actually understand Pacific Northwest living. Your lights will gradually brighten on dark winter mornings, your irrigation will skip rainy days, and your security system will know the difference between a prowler and a curious raccoon.",
+        "process": [
+          "Step 1: Climate assessment - We evaluate your home's specific moisture levels, sunlight exposure, and seismic risks",
+          "Step 2: Custom system design - Our engineers create a plan tailored to your home's architecture and your family's routines",
+          "Step 3: Discreet installation - Our technicians work carefully to preserve your home's aesthetics while adding smart capabilities",
+          "Step 4: Personalized training - We ensure you're completely comfortable with every feature before we leave"
+        ],
+        "benefits": [
+          "Energy savings up to 30% with climate-aware automation",
+          "Remote monitoring perfect for Seattle's tech professionals",
+          "Mold prevention through smart humidity control",
+          "Seamless integration with existing home systems"
+        ],
+        "faq": [
+          {
+            "question": "Will automation work in my 1930s Craftsman?",
+            "answer": "Absolutely. We specialize in retrofitting historic Seattle homes with invisible technology. Our solutions preserve original character while adding modern convenience, often using wireless systems that require minimal invasive installation."
+          },
+          {
+            "question": "How does the system handle power outages?",
+            "answer": "All our systems include battery backups rated for Seattle's storm seasons. Critical functions like security and leak detection remain operational for up to 72 hours without power, with automatic notifications if backup power runs low."
+          }
+        ]
+      },
+      {
+        "slug": "smart-security-systems",
+        "name": "Smart Security Systems",
+        "shortDescription": "Comprehensive protection designed for Seattle's unique urban environment and weather patterns.",
+        "description": "Seattle homes face distinct security challenges - from package thefts in Capitol Hill to waterfront vulnerabilities in Kirkland. Our smart security systems go beyond standard alarms to provide intelligent protection that understands our city.\n\nWe install weatherproof cameras with specialized lenses that cut through our famous drizzle and fog. Motion sensors are calibrated to ignore typical Seattle wildlife (yes, even those persistent raccoons), while still detecting actual threats. For earthquake protection, we include automatic gas shutoff valves and emergency alert systems.\n\nIn neighborhoods like Ballard with older homes, we implement non-invasive wireless systems that don't damage historic structures. For modern Bellevue estates, we create comprehensive networks with facial recognition and automated lockdown capabilities. Every system includes real-time alerts you can monitor from your phone, whether you're at Pike Place Market or traveling internationally.",
+        "process": [
+          "Step 1: Vulnerability assessment - We identify your home's specific risks based on location and architecture",
+          "Step 2: Custom security plan - A tailored combination of cameras, sensors, and automation",
+          "Step 3: Professional installation - Discreet placement of all components",
+          "Step 4: System testing & training - We simulate various scenarios to ensure proper response"
+        ],
+        "benefits": [
+          "Weather-resistant cameras that actually work in rain",
+          "Earthquake-responsive emergency protocols",
+          "Package theft prevention for urban neighborhoods",
+          "Remote monitoring with real-time alerts"
+        ],
+        "faq": [
+          {
+            "question": "How do cameras perform in Seattle's constant drizzle?",
+            "answer": "Our cameras use hydrophobic lenses and advanced image processing to maintain clarity even in heavy rain. We also position them under eaves when possible for additional protection, and include automatic lens wipers on exposed units."
+          },
+          {
+            "question": "Can the system distinguish between wildlife and intruders?",
+            "answer": "Yes, our motion sensors use machine learning to recognize patterns of local wildlife. After installation, we train the system to your specific environment, whether that's Ballard's urban raccoons or Mercer Island's deer population."
+          }
+        ]
+      },
+      {
+        "slug": "climate-control-systems",
+        "name": "Smart Climate Control",
+        "shortDescription": "Precision temperature and humidity management for Seattle's challenging seasons.",
+        "description": "Seattle's climate demands more than just a smart thermostat. Our comprehensive climate control systems actively combat mold, mildew, and moisture damage while maintaining perfect comfort year-round.\n\nFor our damp winters, we install humidity sensors throughout your home that automatically activate dehumidifiers when levels rise. In summer, our systems leverage Seattle's cool nights to pre-chill your home naturally before warmer days. We integrate with local weather forecasts to anticipate changes - your home will prepare for coming rain by slightly lowering humidity in advance.\n\nIn historic homes, we preserve original heating systems while adding intelligent controls. For modern constructions, we implement full-zone climate management. Every installation includes our proprietary mold-prevention algorithms developed specifically for Puget Sound's unique conditions. Whether you're in a Fremont bungalow or a Medina mansion, we'll create a system that keeps your home healthy through all seasons.",
+        "process": [
+          "Step 1: Home climate audit - We map temperature variations and moisture trouble spots",
+          "Step 2: System design - Tailored solutions for your home's layout and materials",
+          "Step 3: Professional installation - Our technicians work carefully to integrate with existing systems",
+          "Step 4: Algorithm training - We teach your system your preferences and home's unique patterns"
+        ],
+        "benefits": [
+          "Automatic mold and mildew prevention",
+          "Energy savings through predictive climate management",
+          "Preservation of historic home materials",
+          "Zone-based comfort for multi-level homes"
+        ],
+        "faq": [
+          {
+            "question": "Will this help with my old home's drafty windows?",
+            "answer": "While we can't replace windows, our systems compensate by creating air circulation patterns that minimize drafts. We also install discreet sensors that detect temperature variations and adjust heating accordingly, making old Seattle homes feel consistently comfortable."
+          },
+          {
+            "question": "How does the system handle Seattle's sudden temperature swings?",
+            "answer": "Our predictive algorithms monitor National Weather Service data for our area, learning your home's thermal characteristics to anticipate changes. When a sunny spring day suddenly turns chilly, your system will already be adjusting before you feel the difference."
+          }
+        ]
+      },
+      {
+        "slug": "smart-lighting-solutions",
+        "name": "Smart Lighting Systems",
+        "shortDescription": "Adaptive illumination that compensates for Seattle's dark winters and bright summers.",
+        "description": "Seattle's dramatic seasonal light changes demand intelligent lighting solutions. Our smart systems automatically adjust to our short winter days and long summer evenings, providing optimal illumination year-round while saving energy.\n\nFor the gray months, we implement circadian lighting that mimics natural sunlight patterns, helping combat seasonal affective disorder. Motion-activated pathway lighting ensures safe navigation during our early winter nights. In summer, systems automatically dim during our extended daylight hours.\n\nWe specialize in preserving historic home character while adding modern lighting control. In Craftsman bungalows, we install period-appropriate switches with hidden smart technology. For modern homes, we create dramatic lighting scenes that showcase architecture. All our installations include moisture-resistant fixtures that withstand Seattle's damp conditions without corrosion.",
+        "process": [
+          "Step 1: Lighting assessment - We evaluate your home's natural light patterns and electrical infrastructure",
+          "Step 2: Custom lighting plan - A design that balances aesthetics, function, and energy efficiency",
+          "Step 3: Professional installation - Careful work that preserves your home's integrity",
+          "Step 4: Scene programming - We create custom lighting presets for different times and activities"
+        ],
+        "benefits": [
+          "Mood-enhancing light for dark winters",
+          "Automatic adjustment for seasonal changes",
+          "Energy savings through smart scheduling",
+          "Weather-resistant fixtures for damp climates"
+        ],
+        "faq": [
+          {
+            "question": "Can smart lighting help with Seattle's winter gloom?",
+            "answer": "Absolutely. Our circadian lighting systems gradually brighten in morning hours to simulate sunrise, and maintain optimal color temperatures throughout the day to combat seasonal affective disorder. Many clients report significantly improved winter moods after installation."
+          },
+          {
+            "question": "Will the system work with my historic home's original fixtures?",
+            "answer": "In most cases, yes. We can retrofit original fixtures with smart bulbs and hidden controllers, preserving vintage appearance while adding modern functionality. For particularly delicate antique fixtures, we'll recommend compatible reproductions that maintain period authenticity."
+          }
+        ]
+      },
+      {
+        "slug": "home-energy-management",
+        "name": "Smart Energy Solutions",
+        "shortDescription": "Reduce your carbon footprint and utility bills with Seattle-specific energy management.",
+        "description": "As Seattle moves toward its carbon-neutral goals, our smart energy systems help homeowners do their part while saving money. We create comprehensive energy networks that monitor and optimize your home's power use in real-time, accounting for Seattle's unique climate and energy infrastructure.\n\nOur systems track Seattle City Light's time-of-use rates, automatically shifting energy-intensive tasks to off-peak hours. We integrate with local solar incentives and net metering programs, maximizing your renewable energy benefits. For our damp climate, we include moisture-aware ventilation that prevents energy waste from over-drying air.\n\nFrom Ballard bungalows to Bellevue estates, we've helped hundreds of Seattle-area homes reduce energy use by 20-40%. Our solutions work with all types of Seattle housing, whether you're in a vintage apartment with old wiring or a new construction designed for efficiency. We'll even help you navigate local rebates and tax incentives to offset costs.",
+        "process": [
+          "Step 1: Energy audit - We identify your home's specific consumption patterns and waste areas",
+          "Step 2: System design - Custom solutions for your home type and energy goals",
+          "Step 3: Professional installation - Integration with existing electrical systems",
+          "Step 4: Optimization - Continuous fine-tuning based on your usage data"
+        ],
+        "benefits": [
+          "Significant reduction in utility bills",
+          "Automatic participation in Seattle's green programs",
+          "Real-time monitoring of energy use",
+          "Seamless integration with solar systems"
+        ],
+        "faq": [
+          {
+            "question": "How much can I really save with Seattle's already-low electricity rates?",
+            "answer": "Even with our relatively low rates, most clients see 20-30% savings through optimized usage patterns and reduced waste. The savings are particularly noticeable in larger homes and during our colder, darker winter months when usage typically spikes."
+          },
+          {
+            "question": "Will this work with my older home's outdated electrical system?",
+            "answer": "Yes, we specialize in retrofitting older Seattle homes. While some systems may require basic electrical updates, we can often implement significant energy savings without full rewiring. We'll provide a clear assessment of any needed upgrades during our initial consultation."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mikaela R.",
+        "rating": 5,
+        "service": "Whole Home Automation",
+        "text": "Horizon transformed our 1920s Craftsman in Ballard without compromising its historic charm. They hid all the modern tech so well that guests don't realize our home is automated until we demonstrate it. The moisture sensors have been a game-changer - we used to battle mold every winter, but now the system automatically adjusts humidity levels. Worth every penny for Seattle homeowners.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Daniel T.",
+        "rating": 5,
+        "service": "Smart Security Systems",
+        "text": "After three packages were stolen from our Capitol Hill porch, we invested in Horizon's security system. The cameras can actually see through Seattle's rain, and the motion detection ignores neighborhood cats but alerted us to a would-be intruder at 2 AM. The police were impressed with the clarity of the footage even in pouring rain.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Priya K.",
+        "rating": 5,
+        "service": "Climate Control Systems",
+        "text": "Our modern Bellevue home had terrible hot/cold spots and condensation issues. Horizon's climate system not only fixed these problems but also reduced our energy bill by 25%. The predictive feature is amazing - it starts adjusting before weather changes hit. No more waking up to a freezing house when our infamous cold snaps arrive overnight.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "James L.",
+        "rating": 5,
+        "service": "Smart Lighting Solutions",
+        "text": "The circadian lighting has made Seattle winters so much more bearable. Our system gradually brightens to simulate sunrise, which helps our whole family wake up more naturally during those dark December mornings. Horizon even matched the vintage switches in our Queen Anne home perfectly - you can't tell they're smart controls unless you know what to look for.",
+        "date": "2024-10-18"
+      },
+      {
+        "name": "Sophia M.",
+        "rating": 5,
+        "service": "Home Energy Management",
+        "text": "As environmentally conscious Seattleites, we wanted to reduce our carbon footprint. Horizon's system automatically shifts our laundry and dishwasher to off-peak hours and gives us real-time usage data. We've cut our electricity use by 35% without changing our habits. The solar integration was seamless too - they handled all the paperwork with Seattle City Light.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Ethan W.",
+        "rating": 5,
+        "service": "Whole Home Automation",
+        "text": "Living in a waterfront Kirkland home means constant battles with moisture. Horizon's system not only automates our lighting and security but actively protects against mold and mildew. The earthquake protocols give us peace of mind too. Their team understood our unique lakeside challenges and designed solutions that actually work in our environment.",
+        "date": "2024-08-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Seattle Smart Home Automation Experts | Horizon Smart Home",
+        "description": "Local smart home specialists serving Seattle with climate-adaptive automation, security, and energy systems designed for Pacific Northwest homes."
+      },
+      "about": {
+        "title": "About Our Seattle Smart Home Company | Horizon Smart Home",
+        "description": "Learn how Horizon Smart Home's local expertise creates perfect automation solutions for Seattle's climate, architecture, and lifestyle needs."
+      },
+      "services": {
+        "title": "Smart Home Services in Seattle | Horizon Smart Home",
+        "description": "Comprehensive smart home services including automation, security, and climate control specifically designed for Seattle area homes and condos."
+      },
+      "contact": {
+        "title": "Contact Seattle's Smart Home Experts | Horizon Smart Home",
+        "description": "Get in touch with Horizon Smart Home for smart home automation, security, and climate solutions in Seattle and surrounding communities."
+      },
+      "reviews": {
+        "title": "Seattle Smart Home Reviews | Horizon Smart Home",
+        "description": "Read verified customer reviews of Horizon Smart Home's automation, security, and climate control installations in Seattle area homes."
+      },
+      "service-areas": {
+        "title": "Seattle Area Smart Home Services | Horizon Smart Home",
+        "description": "Smart home automation and technology services for Seattle neighborhoods including Bellevue, Redmond, Kirkland, and Tacoma."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Bellevue",
+        "slug": "bellevue-wa",
+        "state": "WA",
+        "content": "Horizon Smart Home brings cutting-edge automation to Bellevue's upscale residences, spanning from classic 1980s designs to modern smart-ready 2000s builds. Our expertise in climate-responsive systems ensures your home stays comfortable year-round, with solutions tailored for Bellevue's persistent wet winters. We specialize in integrating smart lighting, security, and HVAC controls seamlessly into your home's architecture.\n\nMany Bellevue homeowners prioritize energy efficiency and security, which aligns perfectly with our smart home solutions. From automated rain-sensing irrigation to humidity-controlled ventilation, we help mitigate the challenges of the Pacific Northwest climate. Our team is familiar with Bellevue's neighborhoods and the specific needs of its tech-savvy residents.",
+        "localContext": "Bellevue features upscale homes primarily built between the 1980s-2000s, with a population of about 153,000.",
+        "nearbyAreas": [
+          "Redmond",
+          "Kirkland",
+          "Issaquah"
+        ]
+      },
+      {
+        "city": "Redmond",
+        "slug": "redmond-wa",
+        "state": "WA",
+        "content": "Serving Redmond's Microsoft corridor, Horizon Smart Home understands the unique needs of tech professionals and their families. We frequently work with smart home enthusiasts in Redmond's modern townhomes and single-family residences, implementing whole-home automation that syncs with busy lifestyles. Our solutions help Redmond residents manage their homes remotely during long work hours at the nearby tech campus.\n\nRedmond's climate demands particular attention to moisture control and energy efficiency. We install smart thermostats that adjust to temperature fluctuations and humidity sensors that prevent mold growth during the persistent rainy seasons. Many Redmond clients appreciate our expertise in creating entertainment-focused smart systems for their homes.",
+        "localContext": "Redmond is home to about 74,000 residents and the Microsoft campus, with housing catering to tech professionals.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Kirkland",
+          "Sammamish"
+        ]
+      },
+      {
+        "city": "Kirkland",
+        "slug": "kirkland-wa",
+        "state": "WA",
+        "content": "Kirkland's stunning Lake Washington waterfront homes present unique opportunities for smart home integration. Horizon Smart Home specializes in elevating these properties with automated shading systems, smart lighting that enhances water views, and climate control for Kirkland's temperature variations. We understand how to protect lakeside electronics from humidity while maintaining aesthetic appeal.\n\nFor Kirkland's 93,000 residents, we offer specialized solutions like smart irrigation for waterfront landscaping and automated dock lighting. Many historic Kirkland homes benefit from our discreet installation techniques that preserve architectural integrity while adding modern convenience. Our team is experienced with the permitting processes and specific requirements of Kirkland's distinct neighborhoods.",
+        "localContext": "Kirkland has approximately 93,000 residents and features beautiful waterfront homes along Lake Washington.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Redmond",
+          "Bothell"
+        ]
+      },
+      {
+        "city": "Tacoma",
+        "slug": "tacoma-wa",
+        "state": "WA",
+        "content": "In Tacoma's historic Stadium District and surrounding areas, Horizon Smart Home carefully integrates modern technology with early 20th century Craftsman architecture. We specialize in solutions that preserve Tacoma's historic charm while providing today's smart home conveniences. Our team is experienced in working with Tacoma's 220,000 residents to upgrade their homes without compromising character.\n\nTacoma's climate requires particular attention to moisture management in older homes. We install smart ventilation systems that protect against Tacoma's persistent winter rains while maintaining energy efficiency. From smart security for historic properties to hidden wiring solutions for Craftsman homes, we help Tacoma residents bridge the gap between past and present.",
+        "localContext": "Tacoma has about 220,000 residents and features many early 1900s-20s Craftsman homes in its historic Stadium District.",
+        "nearbyAreas": [
+          "Puyallup",
+          "Federal Way",
+          "University Place"
+        ]
+      },
+      {
+        "city": "Bothell",
+        "slug": "bothell-wa",
+        "state": "WA",
+        "content": "Bothell's family-oriented suburban developments from the 1980s-90s are ideal candidates for smart home upgrades. Horizon Smart Home helps Bothell's 50,000 residents transform these properties into efficient, connected living spaces. We frequently work with Bothell homeowners to implement whole-home audio, smart security for growing families, and energy monitoring systems.\n\nThe mild but wet winters in Bothell make smart climate control systems particularly valuable. We install solutions that automatically adjust to Bothell's weather patterns, from smart gutters to leak detection systems. Our team understands the layout and construction of Bothell's suburban homes, allowing for efficient installations with minimal disruption to your daily life.",
+        "localContext": "Bothell has around 50,000 residents and features primarily 1980s-90s suburban housing developments.",
+        "nearbyAreas": [
+          "Woodinville",
+          "Kirkland",
+          "Mill Creek"
+        ]
+      },
+      {
+        "city": "Sammamish",
+        "slug": "sammamish-wa",
+        "state": "WA",
+        "content": "Sammamish's newer luxury homes and planned communities benefit greatly from Horizon Smart Home's comprehensive automation solutions. We work extensively in Sammamish's upscale neighborhoods, implementing smart systems that enhance security, efficiency, and convenience for discerning homeowners. Our team is familiar with Sammamish's specific requirements for home technology integration.\n\nWith Sammamish's climate featuring persistent winter rains, we prioritize moisture-resistant installations and smart drainage solutions. Many Sammamish clients appreciate our expertise in creating outdoor living spaces with automated lighting, audio, and climate control. We help residents manage their large properties efficiently through centralized smart home controls.",
+        "localContext": "Sammamish features newer luxury homes and planned communities with similar wet winter climate as surrounding areas.",
+        "nearbyAreas": [
+          "Redmond",
+          "Issaquah",
+          "Bellevue"
+        ]
+      },
+      {
+        "city": "Issaquah",
+        "slug": "issaquah-wa",
+        "state": "WA",
+        "content": "Issaquah's blend of historic downtown and newer developments creates diverse opportunities for smart home technology. Horizon Smart Home tailors solutions for Issaquah's unique character, from preserving the charm of older homes to maximizing the potential of modern builds. We help Issaquah residents create connected homes that complement the city's natural surroundings.\n\nThe transition between Issaquah's valley and foothill locations means varied climate considerations. We install smart systems that automatically adjust to microclimate differences throughout the city. Many Issaquah homeowners appreciate our expertise in creating nature-friendly smart lighting and wildlife-aware security systems that respect the area's ecological sensitivity.",
+        "localContext": "Issaquah combines historic downtown areas with newer developments near the foothills of the Cascade Mountains.",
+        "nearbyAreas": [
+          "Sammamish",
+          "Bellevue",
+          "Renton"
+        ]
+      },
+      {
+        "city": "Woodinville",
+        "slug": "woodinville-wa",
+        "state": "WA",
+        "content": "Woodinville's wine country estates and rural properties present unique smart home opportunities that Horizon Smart Home specializes in addressing. We design systems that account for Woodinville's larger properties, including smart agricultural monitoring for hobby vineyards and expansive security solutions. Our team understands how to balance technology with Woodinville's rustic charm.\n\nFor Woodinville's distinct microclimates across valleys and hillsides, we install responsive environmental controls that protect both homes and wine collections. Many Woodinville residents appreciate our discrete installations that maintain the area's aesthetic while providing modern conveniences. We're experienced with the specific infrastructure considerations of Woodinville's more remote properties.",
+        "localContext": "Woodinville is known for its wine country estates and rural properties with larger land parcels.",
+        "nearbyAreas": [
+          "Bothell",
+          "Redmond",
+          "Duvall"
+        ]
+      },
+      {
+        "city": "Renton",
+        "slug": "renton-wa",
+        "state": "WA",
+        "content": "Renton's diverse housing stock, from Boeing-era mid-century homes to modern downtown developments, benefits from Horizon Smart Home's adaptable solutions. We help Renton residents create smart homes that match their lifestyles, whether in historic properties along the Cedar River or in new apartment conversions. Our team is familiar with Renton's unique topography and infrastructure.\n\nThe proximity to the Green River and Lake Washington means special attention to flood prevention smart systems in certain Renton neighborhoods. We install moisture detection networks and automatic sump pump controls that provide peace of mind during the region's wet winters. Many Renton clients appreciate our budget-conscious smart home solutions that deliver maximum value.",
+        "localContext": "Renton features diverse housing from mid-century Boeing-era homes to modern downtown developments.",
+        "nearbyAreas": [
+          "Kent",
+          "Newcastle",
+          "Tukwila"
+        ]
+      },
+      {
+        "city": "Mercer Island",
+        "slug": "mercer-island-wa",
+        "state": "WA",
+        "content": "Mercer Island's exclusive waterfront and view properties demand the highest level of smart home integration, which Horizon Smart Home is uniquely qualified to provide. We specialize in creating seamless, whole-home systems that match the sophistication of Mercer Island residences. Our team understands the specific needs of island living, from security considerations to connectivity solutions.\n\nThe microclimate of Mercer Island, surrounded by Lake Washington, requires specialized environmental controls. We install smart systems that account for lake-effect humidity and temperature variations. Many Mercer Island clients appreciate our expertise in creating elegant, unobtrusive technology installations that maintain their homes' luxurious aesthetics while providing cutting-edge functionality.",
+        "localContext": "Mercer Island is an exclusive community on Lake Washington known for its luxury waterfront homes.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Seattle",
+          "Newcastle"
+        ]
+      },
+      {
+        "city": "Federal Way",
+        "slug": "federal-way-wa",
+        "state": "WA",
+        "content": "Federal Way's mix of mid-century and newer suburban homes presents excellent opportunities for smart home upgrades. Horizon Smart Home helps Federal Way residents modernize their properties with intuitive automation systems that enhance security, energy efficiency, and comfort. We're experienced with Federal Way's diverse neighborhoods and housing styles.\n\nGiven Federal Way's location between Tacoma and Seattle, many residents commute extensively. We specialize in remote home management solutions that provide peace of mind during long workdays. Federal Way's climate benefits from our smart irrigation and drainage systems that handle the area's heavy rainfall while conserving water during drier periods.",
+        "localContext": "Federal Way features a mix of mid-century and newer suburban homes between Tacoma and Seattle.",
+        "nearbyAreas": [
+          "Tacoma",
+          "Des Moines",
+          "Auburn"
+        ]
+      },
+      {
+        "city": "Shoreline",
+        "slug": "shoreline-wa",
+        "state": "WA",
+        "content": "Shoreline's blend of classic Pacific Northwest homes and newer infill developments benefits from Horizon Smart Home's flexible approach to automation. We help Shoreline residents create smart homes that respect the area's character while providing modern convenience. Our team is experienced with Shoreline's zoning regulations and neighborhood aesthetics.\n\nThe area's topography sloping down to Puget Sound creates varied climate conditions across Shoreline. We install smart systems that automatically adjust to these microclimates, from hilltop wind exposure to valley fog patterns. Many Shoreline clients appreciate our solutions for enhancing views of the Sound while maintaining privacy and security through smart window treatments and lighting controls.",
+        "localContext": "Shoreline features a mix of classic Northwest homes and newer developments along the Puget Sound.",
+        "nearbyAreas": [
+          "Seattle",
+          "Edmonds",
+          "Lake Forest Park"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "whole-home-automation": "/images/service-whole-home-automation.webp",
+      "smart-security-systems": "/images/service-smart-security-systems.webp",
+      "climate-control-systems": "/images/service-climate-control-systems.webp",
+      "smart-lighting-solutions": "/images/service-smart-lighting-solutions.webp",
+      "home-energy-management": "/images/service-home-energy-management.webp"
+    },
+    "servicesResponsive": {
+      "whole-home-automation": {
+        "src": "/images/service-whole-home-automation.webp",
+        "srcset": "/images/service-whole-home-automation-400w.webp 400w, /images/service-whole-home-automation-800w.webp 800w, /images/service-whole-home-automation-1200w.webp 1200w, /images/service-whole-home-automation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "smart-security-systems": {
+        "src": "/images/service-smart-security-systems.webp",
+        "srcset": "/images/service-smart-security-systems-400w.webp 400w, /images/service-smart-security-systems-800w.webp 800w, /images/service-smart-security-systems-1200w.webp 1200w, /images/service-smart-security-systems.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "climate-control-systems": {
+        "src": "/images/service-climate-control-systems.webp",
+        "srcset": "/images/service-climate-control-systems-400w.webp 400w, /images/service-climate-control-systems-800w.webp 800w, /images/service-climate-control-systems-1200w.webp 1200w, /images/service-climate-control-systems.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "smart-lighting-solutions": {
+        "src": "/images/service-smart-lighting-solutions.webp",
+        "srcset": "/images/service-smart-lighting-solutions-400w.webp 400w, /images/service-smart-lighting-solutions-800w.webp 800w, /images/service-smart-lighting-solutions-1200w.webp 1200w, /images/service-smart-lighting-solutions.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "home-energy-management": {
+        "src": "/images/service-home-energy-management.webp",
+        "srcset": "/images/service-home-energy-management-400w.webp 400w, /images/service-home-energy-management-800w.webp 800w, /images/service-home-energy-management-1200w.webp 1200w, /images/service-home-energy-management.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
